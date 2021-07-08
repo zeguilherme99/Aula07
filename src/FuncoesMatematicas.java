@@ -17,7 +17,10 @@ public class FuncoesMatematicas {
 		double soma = valor1 + valor2;
 		System.out.println("O resultado foi " + soma + "!\n\n");
 	}
-	
+	public static double somarComReturn(double valor1,double valor2) {
+		double soma= valor1 + valor2;
+		return soma;
+	}
 	public static void subtrair(double valor1, double valor2) {
 		System.out.println("\n\nRealizando a subtração entre " + valor1 + " e " + valor2);
 		double subtracao = valor1 - valor2;

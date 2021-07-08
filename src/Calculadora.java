@@ -10,7 +10,7 @@ public class Calculadora {
 		int opcao = 0;
 		
 		while (opcao!=6) {
-			exibirMenu();
+			FuncoesMatematicas.exibirMenu();
 			opcao = leitor.nextInt();
 			
 			switch(opcao) {
@@ -24,17 +24,17 @@ public class Calculadora {
 				
 				break;
 			case 2:
-				somar(valor1, valor2);
+				FuncoesMatematicas.somar(valor1, valor2);
 				break;
 			case 3:
-				subtrair(valor1, valor2);
+				FuncoesMatematicas.subtrair(valor1, valor2);
 				break;
 			case 4:
-				dividir(valor1,valor2);
+				FuncoesMatematicas.dividir(valor1,valor2);
 				
 				break;
 			case 5:
-				multiplicar(valor1,valor2);
+				FuncoesMatematicas.multiplicar(valor1,valor2);
 				break;
 			case 6:
 				System.out.println("Saindo do sistema");
